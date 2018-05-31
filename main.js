@@ -292,15 +292,36 @@ var InputformComponent = /** @class */ (function () {
         console.log('model: ' + JSON.stringify(this.model));
         this.store.selectSnapshot(function (state) {
             _this.http.get(_this.configService.config.serverURL + "/?email=" + state.app.email + "&pageData=" + JSON.stringify(_this.model)).subscribe(function (data) {
-                console.log("result: " + JSON.stringify(data) + " siteUrl: " + data.siteUrl);
-                _this.store.dispatch([new _store_actions__WEBPACK_IMPORTED_MODULE_6__["WebSiteGeneratedAction"](data.siteUrl)]);
-                _this.isInProgress = false;
-                _this.isFinishedUpdatingSite = true;
-                _this.openSnackBar('Your website is ready', 'click above link to open it!');
+                console.log("result: " + JSON.stringify(data) + " siteUrl: " + data.sitename);
+                _this.checkStatus(data.sitename);
+                // this.store.dispatch([new WebSiteGeneratedAction(data.sitename)]);
+                // this.isInProgress = false;
+                // this.isFinishedUpdatingSite = true;
+                // this.openSnackBar('Your website is ready', 'click above link to open it!');
             }, function (error) {
                 console.log("an error has occured: " + error.message);
                 _this.isInProgress = false;
             });
+        });
+    };
+    InputformComponent.prototype.checkStatus = function (sitename) {
+        var _this = this;
+        this.http.get(this.configService.config.serverURL + "/justsaywebsite/status/?sitename=" + sitename).subscribe(function (data) {
+            console.log("status: " + JSON.stringify(data));
+            var that = _this;
+            if (data.status !== 'done') {
+                console.log("status is not done yet its: " + data.status);
+                setTimeout(function () { that.checkStatus(sitename); }, 5000);
+            }
+            else {
+                _this.store.dispatch([new _store_actions__WEBPACK_IMPORTED_MODULE_6__["WebSiteGeneratedAction"](sitename + ".netlify.com")]);
+                _this.isInProgress = false;
+                _this.isFinishedUpdatingSite = true;
+                _this.openSnackBar('Your website is ready', 'click above link to open it!');
+            }
+        }, function (error) {
+            console.log("an error has occured: " + error.message);
+            _this.isInProgress = false;
         });
     };
     InputformComponent.prototype.openSnackBar = function (message, action) {
