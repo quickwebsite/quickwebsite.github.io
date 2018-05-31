@@ -314,7 +314,7 @@ var InputformComponent = /** @class */ (function () {
                 setTimeout(function () { that.checkStatus(sitename); }, 5000);
             }
             else {
-                _this.store.dispatch([new _store_actions__WEBPACK_IMPORTED_MODULE_6__["WebSiteGeneratedAction"](sitename + ".netlify.com")]);
+                _this.store.dispatch([new _store_actions__WEBPACK_IMPORTED_MODULE_6__["WebSiteGeneratedAction"]("https://" + sitename + ".netlify.com")]);
                 _this.isInProgress = false;
                 _this.isFinishedUpdatingSite = true;
                 _this.openSnackBar('Your website is ready', 'click above link to open it!');
