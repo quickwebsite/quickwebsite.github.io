@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n\n<header>\n  <div class=\"container\">\n    <div id=\"branding\">\n      <h1><span class=\"highlight\">Just</span> Say Website</h1>\n    </div>\n    <nav>\n      <ul>\n        <li class=\"current\"><a href=\"index.html\">Home</a></li>\n        <li><a href=\"index.html\">About</a></li>\n        <li><a href=\"index.html\">Services</a></li>\n      </ul>\n    </nav>\n  </div>\n</header>\n\n<section id=\"showcase\">\n  <div class=\"container\">\n    <h1>Describe a Website - Have It Done</h1>\n    <p>You just fill the form below with your website title, description, twitter, and you know the other details.  Click the generate button and you have your website done! ;)</p>\n  </div>\n</section>\n\n<!--<section id=\"newsletter\">-->\n  <!--<div class=\"container\">-->\n    <!--<h1>Subscribe To Our Newsletter</h1>-->\n    <!--<form>-->\n      <!--<input type=\"email\" placeholder=\"Enter Email...\">-->\n      <!--<button type=\"submit\" class=\"button_1\">Subscribe</button>-->\n    <!--</form>-->\n  <!--</div>-->\n<!--</section>-->\n\n<section id=\"boxes\">\n  <div class=\"container\">\n    <div class=\"box\">\n      <app-inputform></app-inputform>\n    </div>\n  </div>\n</section>\n\n<section id=\"sociallogin\">\n  <div class=\"container\">\n    <div class=\"box\">\n      <app-sociallogin></app-sociallogin>\n    </div>\n  </div>\n</section>\n\n\n<!--<section id=\"boxes\">-->\n  <!--<div class=\"container\">-->\n    <!--<div class=\"box\">-->\n      <!--<img src=\"assets/img/logo_html.png\">-->\n      <!--<h3>HTML5 Markup</h3>-->\n      <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>-->\n    <!--</div>-->\n    <!--<div class=\"box\">-->\n      <!--<img src=\"assets/img/logo_css.png\">-->\n      <!--<h3>CSS3 Styling</h3>-->\n      <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>-->\n    <!--</div>-->\n    <!--<div class=\"box\">-->\n      <!--<img src=\"assets/img/logo_brush.png\">-->\n      <!--<h3>Graphic Design</h3>-->\n      <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>-->\n    <!--</div>-->\n  <!--</div>-->\n<!--</section>-->\n\n<footer>\n  <p>JustSayWebsite Web Deisgn, Copyright &copy; 2017</p>\n</footer>\n\n\n<!--\n<div style=\"text-align:center\">\n\n\n  <h1>\n    Welcome to {{title}}!\n  </h1>\n</div>\n<h2>Just Say What Your Website Is About Below: </h2>\n\n\n\n<ul>\n\n\n\n\n  <li>\n    <app-inputform></app-inputform>\n  </li>\n\n  <li>\n\n  </li>\n</ul>\n\n-->\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n\n<header>\n  <div class=\"container\">\n    <div id=\"branding\">\n      <h1><span class=\"highlight\">Just</span> Say Website</h1>\n    </div>\n    <nav>\n      <ul>\n        <li class=\"current\"><a href=\"index.html\">Home</a></li>\n        <li><a href=\"index.html\">About</a></li>\n        <li><a href=\"index.html\">Services</a></li>\n      </ul>\n    </nav>\n  </div>\n\n</header>\n\n\n\n<section id=\"showcase\">\n  <div class=\"container\">\n    <h1>Describe a Website - Have It Done</h1>\n    <p>You just fill the form below with your website title, description, twitter.  Click the generate button and you have your website done! ;) We use <a href=\"https://jekyllrb.com/\" style=\"color:bisque\" target=\"_blank\">Jekyll</a> For web site generation, <a href=\"https://www.netlify.com/\" style=\"color:bisque\" target=\"_blank\">Netlify</a> for web site hosting, <a href=\"https://getbootstrap.com/\" style=\"color:bisque\" target=\"_blank\">Bootstrap</a> for theme management, <a href=\"https://github.com/\" style=\"color:bisque\" target=\"_blank\">Github</a> for web site revision history.  Click Generate WebSite button below and enjoy your free web site!</p>\n    <!--<video autoplay muted loop id=\"myVideo\">-->\n      <!--<source src=\"assets/rain.mp4\" type=\"video/mp4\" id=\"myVideo\">-->\n    <!--</video>-->\n  </div>\n</section>\n\n<!--<section id=\"newsletter\">-->\n  <!--<div class=\"container\">-->\n    <!--<h1>Subscribe To Our Newsletter</h1>-->\n    <!--<form>-->\n      <!--<input type=\"email\" placeholder=\"Enter Email...\">-->\n      <!--<button type=\"submit\" class=\"button_1\">Subscribe</button>-->\n    <!--</form>-->\n  <!--</div>-->\n<!--</section>-->\n\n<section id=\"boxes\">\n  <div class=\"container\">\n      <app-inputform></app-inputform>\n  </div>\n</section>\n\n<section id=\"sociallogin\">\n  <div class=\"container\">\n    <div class=\"box\">\n      <app-sociallogin></app-sociallogin>\n    </div>\n  </div>\n</section>\n\n\n<!--<section id=\"boxes\">-->\n  <!--<div class=\"container\">-->\n    <!--<div class=\"box\">-->\n      <!--<img src=\"assets/img/logo_html.png\">-->\n      <!--<h3>HTML5 Markup</h3>-->\n      <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>-->\n    <!--</div>-->\n    <!--<div class=\"box\">-->\n      <!--<img src=\"assets/img/logo_css.png\">-->\n      <!--<h3>CSS3 Styling</h3>-->\n      <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>-->\n    <!--</div>-->\n    <!--<div class=\"box\">-->\n      <!--<img src=\"assets/img/logo_brush.png\">-->\n      <!--<h3>Graphic Design</h3>-->\n      <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>-->\n    <!--</div>-->\n  <!--</div>-->\n<!--</section>-->\n\n<footer>\n  <p>JustSayWebsite Web Deisgn, Tomer Ben David, Copyright &copy; 2018</p>\n</footer>\n\n\n<!--\n<div style=\"text-align:center\">\n\n\n  <h1>\n    Welcome to {{title}}!\n  </h1>\n</div>\n<h2>Just Say What Your Website Is About Below: </h2>\n\n\n\n<ul>\n\n\n\n\n  <li>\n    <app-inputform></app-inputform>\n  </li>\n\n  <li>\n\n  </li>\n</ul>\n\n-->\n"
 
 /***/ }),
 
@@ -109,12 +109,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ngxs_logger_plugin__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ngxs/logger-plugin */ "./node_modules/@ngxs/logger-plugin/fesm5/ngxs-logger-plugin.js");
 /* harmony import */ var _ngxs_storage_plugin__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @ngxs/storage-plugin */ "./node_modules/@ngxs/storage-plugin/fesm5/ngxs-storage-plugin.js");
 /* harmony import */ var _store_State__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./store/State */ "./src/app/store/State.ts");
+/* harmony import */ var _store_errohandling__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./store/errohandling */ "./src/app/store/errohandling.ts");
+/* harmony import */ var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/flex-layout */ "./node_modules/@angular/flex-layout/esm5/flex-layout.es5.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -181,6 +185,7 @@ var AppModule = /** @class */ (function () {
                 _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatSortModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatTableModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatToolbarModule"],
+                _angular_flex_layout__WEBPACK_IMPORTED_MODULE_17__["FlexLayoutModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClientModule"],
                 angular_6_social_login__WEBPACK_IMPORTED_MODULE_9__["SocialLoginModule"],
@@ -194,8 +199,12 @@ var AppModule = /** @class */ (function () {
             providers: [{
                     provide: angular_6_social_login__WEBPACK_IMPORTED_MODULE_9__["AuthServiceConfig"],
                     useFactory: provideConfig,
-                }, _config_service_service__WEBPACK_IMPORTED_MODULE_11__["ConfigService"]],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+                }, _config_service_service__WEBPACK_IMPORTED_MODULE_11__["ConfigService"], {
+                    provide: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ErrorHandler"],
+                    useClass: _store_errohandling__WEBPACK_IMPORTED_MODULE_16__["ErrorsHandler"]
+                }
+            ],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]],
         })
     ], AppModule);
     return AppModule;
@@ -212,7 +221,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".example-form {\n  min-width: 150px;\n  max-width: 500px;\n  width: 100%;\n}\n\n.example-full-width {\n  width: 100%;\n}\n"
+module.exports = ".example-form {\n  min-width: 150px;\n  max-width: 500px;\n  width: 100%;\n}\n\n.example-full-width {\n  width: 100%;\n}\n\n.mat-unstyled-image img{\n  max-width: 100%;\n  width: auto;\n  height: auto !important; /* needs to be important because md-card also sets it that way */\n}\n\n"
 
 /***/ }),
 
@@ -223,7 +232,7 @@ module.exports = ".example-form {\n  min-width: 150px;\n  max-width: 500px;\n  w
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--<form class=\"example-form\" (ngSubmit)=\"onSubmit()\">-->\n<form class=\"example-full-width\" (ngSubmit)=\"onSubmit()\">\n  <mat-horizontal-stepper>\n\n    <mat-step>\n      <mat-form-field class=\"example-full-width\">\n        <input matInput placeholder=\"Web Site Title\" value=\"My Landing Page\" [(ngModel)]=\"model.title\" name=\"title\">\n      </mat-form-field>\n      <mat-form-field class=\"example-full-width\">\n        <input matInput placeholder=\"Subtitle\" value=\"Want to make this subtitle yourself?\" [(ngModel)]=\"model.subtitle\" name=\"subtitle\">\n      </mat-form-field>\n      <mat-form-field class=\"example-full-width\">\n        <input matInput placeholder=\"Web Site Description\" value=\"The only site description The only site description The only site description The only site description The only site description The only site description The only site description The only site description The only site description The only site description \" [(ngModel)]=\"model.description\" name=\"description\">\n      </mat-form-field>\n      <mat-form-field class=\"example-full-width\">\n        <input matInput placeholder=\"Main Button Title\" value=\"Top Button Title\" [(ngModel)]=\"model.topButtonScrollTitle\" name=\"topButtonScrollTitle\">\n      </mat-form-field>\n      <mat-form-field class=\"example-full-width\">\n        <input matInput placeholder=\"Mid Page Description\" value=\"Forget that! Who would ever want to put in all of that effort for a website? Just open up your web browser and type bootstrap template into your favorite search engine, like Yahoo! or Bing, and you're on your way! There are hundreds of templates to choose from, but go ahead and pick this same exact template from the first result on google, edit a few lines, and you're on your way! No one will notice! :)\" [(ngModel)]=\"model.subdescription\" name=\"subdescription\">\n      </mat-form-field>\n\n      <div>\n        <button mat-button matStepperNext type=\"button\">Next</button>\n      </div>\n    </mat-step>\n\n    <mat-step>\n      <mat-form-field class=\"example-full-width\">\n        <input matInput placeholder=\"Section 3 Title\" value=\"Section 3 Title\" [(ngModel)]=\"model.section3Title\" name=\"section3Title\">\n      </mat-form-field>\n\n      <div>\n        <button mat-button matStepperPrevious type=\"button\">Back</button>\n        <button mat-button matStepperNext type=\"button\">Next</button>\n      </div>\n\n    </mat-step>\n\n\n  </mat-horizontal-stepper>\n\n    <p>\n      <button mat-raised-button type=\"submit\" class=\"btn btn-success\" (click)=\"openSnackBar('Cool, we are preparing your website', 'It takes about one minute!')\">Generate Your Website!</button>\n    </p>\n    <div *ngIf=\"isInProgress\">\n      <mat-progress-bar mode=\"indeterminate\"></mat-progress-bar>\n    </div>\n    <div *ngIf=\"isFinishedUpdatingSite\">\n      <p>\n        <a href=\"{{ (app$ | async).webSiteUrl }}\" target=\"_blank\" >You Said It - Your Web Site Is Here!</a>\n      </p>\n    </div>\n\n</form>\n"
+module.exports = "<!--<form class=\"example-form\" (ngSubmit)=\"onSubmit()\">-->\n    <form class=\"example-full-width\" (ngSubmit)=\"onSubmit()\">\n\n      <div class=\"container\" fxLayout=\"row\" fxLayout.xs=\"column\" fxLayoutWrap fxLayoutGap=\"10%\" fxLayoutAlign=\"center\">\n\n        <div fxFlex=\"50%\">\n          <h2>Describe Your WebSite</h2>\n\n          <mat-horizontal-stepper>\n\n            <mat-step>\n              <mat-form-field class=\"example-full-width\">\n                <input matInput placeholder=\"Web Site Title\" (change)=\"onFieldsChange(title.value, subtitle.value, description.value, topButtonTitle.value, subDescription.value)\" #title value=\"{{ (app$ | async).everyBootstrapThemeConfig.match('title: &quot;(.*)&quot;')[1] }}\">\n              </mat-form-field>\n              <mat-form-field class=\"example-full-width\">\n                <input matInput placeholder=\"Subtitle\" (change)=\"onFieldsChange(title.value, subtitle.value, description.value, topButtonTitle.value, subDescription.value)\" value=\"{{ (app$ | async).everyBootstrapThemeConfig.match('top_left_title: &quot;(.*)&quot;')[1] }}\" #subtitle>\n              </mat-form-field>\n              <mat-form-field class=\"example-full-width\">\n                <input matInput placeholder=\"Web Site Description\" (change)=\"onFieldsChange(title.value, subtitle.value, description.value, topButtonTitle.value, subDescription.value)\" #description value=\"{{ (app$ | async).everyBootstrapThemeConfig.match('moredetails_section_description: &quot;(.*)&quot;')[1] }}\">\n              </mat-form-field>\n              <mat-form-field class=\"example-full-width\">\n                <input matInput placeholder=\"Main Button Title\" (change)=\"onFieldsChange(title.value, subtitle.value, description.value, topButtonTitle.value, subDescription.value)\" #topButtonTitle value=\"{{ (app$ | async).everyBootstrapThemeConfig.match('top_button_page_scroll_title: &quot;(.*)&quot;')[1] }}\">\n              </mat-form-field>\n              <mat-form-field class=\"example-full-width\">\n                <input matInput placeholder=\"Mid Page Description\" (change)=\"onFieldsChange(title.value, subtitle.value, description.value, topButtonTitle.value, subDescription.value)\" #subDescription value=\"{{ (app$ | async).everyBootstrapThemeConfig.match('multicolumn_section_first_column_description: &quot;(.*)&quot;')[1] }}\">\n              </mat-form-field>\n\n              <div>\n                <button mat-button matStepperNext type=\"button\">Next</button>\n              </div>\n            </mat-step>\n\n            <mat-step>\n              <mat-form-field class=\"example-full-width\">\n                <textarea matInput rows=\"20\" placeholder=\"Advanced Change Anything Here\" value=\"{{ (app$ | async).everyBootstrapThemeConfig }}\" #themeConfig name=\"themeConfig\"></textarea>\n              </mat-form-field>\n\n              <div>\n                <button mat-button matStepperPrevious type=\"button\">Back</button>\n                <button mat-button matStepperNext type=\"button\">Next</button>\n              </div>\n\n            </mat-step>\n\n\n          </mat-horizontal-stepper>\n\n          <div>\n            <p>\n              <button mat-raised-button type=\"submit\"\n                      class=\"btn btn-success\"\n                      (click)=\"genereateWebSite(themeConfig.value);openSnackBar('Cool, we are preparing your website', 'It takes about one minute!')\">Generate Your Website!</button>\n            </p>\n          </div>\n          <div *ngIf=\"isInProgress\">\n            <mat-progress-bar mode=\"indeterminate\"></mat-progress-bar>\n          </div>\n          <div *ngIf=\"isFinishedUpdatingSite\">\n            <p>\n              <a href=\"{{ (app$ | async).webSiteUrl }}\" target=\"_blank\" >You Said It - Your Web Site Is Here!</a>\n            </p>\n          </div>\n\n        </div> <!-- flex column 50% -->\n\n        <div fxFlex=\"50%\">\n          <h2>Choose Theme</h2>\n          <mat-card>\n            <img mat-card-image src=\"assets/img/everybootstrap-theme-preview.png\">\n            <mat-card-actions>\n              <div *ngIf=\"((app$ | async).everyBootstrapThemeConfig.match('justsaywebsite_theme: &quot;(.*)&quot;') == null || (app$ | async).everyBootstrapThemeConfig.match('justsaywebsite_theme: &quot;(.*)&quot;')[1] === 'jekyll-theme-03-every-boostrap'); else chooseEveryBootstrap\">\n                  <button mat-button>CURRENT THEME!</button>\n              </div>\n              <ng-template #chooseEveryBootstrap>\n                <button (click)=\"onThemeChange('jekyll-theme-03-every-boostrap')\" mat-button>CHOOSE ME</button>\n              </ng-template>\n            </mat-card-actions>\n          </mat-card>\n          <mat-card>\n            <img mat-card-image src=\"assets/img/grayscale-theme-preview.png\">\n            <mat-card-actions>\n              <div *ngIf=\"((app$ | async).everyBootstrapThemeConfig.match('justsaywebsite_theme: &quot;(.*)&quot;') !== null && (app$ | async).everyBootstrapThemeConfig.match('justsaywebsite_theme: &quot;(.*)&quot;')[1] === 'justsaywebsite-theme-startbootstrap-grayscale'); else chooseGrayScale\">\n                <button mat-button>CURRENT THEME!</button>\n              </div>\n              <ng-template #chooseGrayScale>\n                <button (click)=\"onThemeChange('justsaywebsite-theme-startbootstrap-grayscale')\" mat-button>CHOOSE ME</button>\n              </ng-template>\n            </mat-card-actions>\n          </mat-card>\n        </div>\n\n\n      </div> <!-- flex row -->\n\n\n\n\n    </form>\n"
 
 /***/ }),
 
@@ -284,25 +293,9 @@ var InputformComponent = /** @class */ (function () {
         });
     }
     InputformComponent.prototype.ngOnInit = function () {
+        this.store.dispatch([new _store_actions__WEBPACK_IMPORTED_MODULE_6__["InitWithDefaultsAction"]()]);
     };
     InputformComponent.prototype.onSubmit = function () {
-        var _this = this;
-        console.log('form submitted...');
-        this.isInProgress = true;
-        console.log('model: ' + JSON.stringify(this.model));
-        this.store.selectSnapshot(function (state) {
-            _this.http.get(_this.configService.config.serverURL + "/?email=" + state.app.email + "&pageData=" + JSON.stringify(_this.model)).subscribe(function (data) {
-                console.log("result: " + JSON.stringify(data) + " siteUrl: " + data.sitename);
-                _this.checkStatus(data.sitename);
-                // this.store.dispatch([new WebSiteGeneratedAction(data.sitename)]);
-                // this.isInProgress = false;
-                // this.isFinishedUpdatingSite = true;
-                // this.openSnackBar('Your website is ready', 'click above link to open it!');
-            }, function (error) {
-                console.log("an error has occured: " + error.message);
-                _this.isInProgress = false;
-            });
-        });
     };
     InputformComponent.prototype.checkStatus = function (sitename) {
         var _this = this;
@@ -329,6 +322,35 @@ var InputformComponent = /** @class */ (function () {
             duration: 10000,
         });
     };
+    InputformComponent.prototype.genereateWebSite = function (themeConfig) {
+        var _this = this;
+        this.store.dispatch([new _store_actions__WEBPACK_IMPORTED_MODULE_6__["GenerateWebSiteAction"](themeConfig)]);
+        console.log('form submitted...');
+        this.isInProgress = true;
+        console.log('model: ' + JSON.stringify(this.model));
+        this.store.selectSnapshot(function (state) {
+            console.log("onSubmit state: " + themeConfig);
+            _this.http.post(_this.configService.config.serverURL, { email: state.app.email, pageData: JSON.stringify(themeConfig) }).subscribe(function (data) {
+                _this.checkStatus(data.sitename);
+                // this.store.dispatch([new WebSiteGeneratedAction(data.sitename)]);
+                // this.isInProgress = false;
+                // this.isFinishedUpdatingSite = true;
+                // this.openSnackBar('Your website is ready', 'click above link to open it!');
+            }, function (error) {
+                console.log("an error has occured: " + error.message);
+                _this.isInProgress = false;
+            });
+        });
+    };
+    InputformComponent.prototype.getTitle = function () {
+        return this.app$.map(function (state) {
+            return state.everyBootstrapThemeConfig.match('title: &quot;(.*)&quot;')[1];
+        });
+    };
+    InputformComponent.prototype.onFieldsChange = function (title, subtitle, description, topButtonTitle, subDescription) {
+        this.store.dispatch([new _store_actions__WEBPACK_IMPORTED_MODULE_6__["WebSiteFieldsUpdatedAction"](title, subtitle, description, topButtonTitle, subDescription)]);
+    };
+    InputformComponent.prototype.onThemeChange = function (theme) { this.store.dispatch([new _store_actions__WEBPACK_IMPORTED_MODULE_6__["ThemeChosenAction"](theme)]); };
     __decorate([
         Object(_ngxs_store__WEBPACK_IMPORTED_MODULE_5__["Select"])(),
         __metadata("design:type", Object)
@@ -368,7 +390,7 @@ var WebSiteProperties = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* Social Buttons Style */\n.btn-si {\n  background-position: 1em;\n  background-repeat: no-repeat;\n  background-size: 2em;\n  border-radius: 0.5em;\n  border: none;\n  color: white;\n  cursor: pointer;\n  font-size: 1em;\n  height: 4em;\n  line-height: 1em;\n  padding: 0 2em 0 4em;\n  text-decoration: none;\n  transition: all 0.5s; }\n.btn-google {\n  background-color: #dd4b39;\n  background-image: url(\"/./assets/img/google.svg\"); }\n.btn-google:hover {\n  background-color: #e47365; }\n.btn-google:active {\n  background-color: #c23321; }\n.btn-si-a {\n  padding: 25px 15px 25px 65px !important;\n  font-family: arial; }\n.smaller .btn-si-a {\n  padding-left: 40px !important;\n  font-size: 12px; }\n"
+module.exports = "/* Social Buttons Style */\n.btn-si {\n  background-position: 1em;\n  background-repeat: no-repeat;\n  background-size: 2em;\n  border-radius: 0.5em;\n  border: none;\n  color: white;\n  cursor: pointer;\n  font-size: 1em;\n  height: 4em;\n  line-height: 1em;\n  padding: 0 2em 0 4em;\n  text-decoration: none;\n  transition: all 0.5s;\n\n}\n.btn-google {\n  background-color: #dd4b39;\n  background-image: url(\"/./assets/img/google.svg\");\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n\n}\n.btn-google:hover {\n  background-color: #e47365; }\n.btn-google:active {\n  background-color: #c23321; }\n.btn-si-a {\n  padding: 25px 15px 25px 65px !important;\n  font-family: arial;\n}\n.smaller .btn-si-a {\n  padding-left: 40px !important;\n  font-size: 12px;\n}\n"
 
 /***/ }),
 
@@ -379,7 +401,7 @@ module.exports = "/* Social Buttons Style */\n.btn-si {\n  background-position: 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron bg-transparent text-center\">\n  <div *ngIf=\"!(app$ | async).email\" class=\"card text-center\">\n    <div class=\"card-block\">\n      <button class=\"btn-si btn-google\" (click)=\"socialSignIn('google')\">Make Site Personal</button>\n    </div>\n  </div>\n  <div *ngIf=\"(app$ | async).email\" class=\"card text-center\">\n    <div class=\"card-block\"></div>\n    <img class=\"card-img-top img-responsive photo\" src=\"{{ (app$ | async).photoURL }}\">\n    <div class=\"card-block\">\n      <h4 class=\"card-title\">{{ (app$ | async).username }}</h4>\n      <p class=\"card-text\">{{ (app$ | async).email }}</p>\n    </div>\n    <div class=\"card-block\">\n      <button class=\"btn btn-danger\" (click)=\"signOut()\">Sign out</button>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container\" style=\"margin:20px\" fxLayout=\"row\" fxLayout.xs=\"column\" fxLayoutWrap fxLayoutGap=\"2%\" fxLayoutAlign=\"center\"> <!-- style margin add padding to social top -->\n\n  <div fxFlex=\"100%\">\n\n    <div class=\"jumbotron bg-transparent text-center\">\n      <div *ngIf=\"!(app$ | async).email\" class=\"card text-center\">\n        <div class=\"card-block\">\n          <button class=\"btn-si btn-google\" (click)=\"socialSignIn('google')\">Login To Generate Your Unique Site</button>\n        </div>\n      </div>\n      <div *ngIf=\"(app$ | async).email\" class=\"card text-center\">\n        <div class=\"card-block\"></div>\n        <img class=\"card-img-top img-responsive photo\" src=\"{{ (app$ | async).photoURL }}\">\n        <div class=\"card-block\">\n          <h4 class=\"card-title\">{{ (app$ | async).username }}</h4>\n          <p class=\"card-text\">{{ (app$ | async).email }}</p>\n        </div>\n        <div class=\"card-block\">\n          <button class=\"btn btn-danger\" (click)=\"signOut()\">Sign out</button>\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n</div>\n"
 
 /***/ }),
 
@@ -516,6 +538,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
+var everyBootstrapThemeConfigDefault = "# Titles\n\ntitle: \"Your Cool WebSite Title\"\ntop_left_title: \"Your Cool Website\"\ntop_button_page_scroll_title: \"Check Us Out\"\n\n# Navigation Bar\n\nnavigation_four_icons_text: \"Four Icons\"\nnavigation_showcase_text: \"Showcase\"\nnavigation_contactus_text: \"Call Me\"\n\n# More Details Section\n\nmoredetails_section_title: \"This Is An Amazing Product\"\nmoredetails_section_description: \"Your whole website is actually one text file configuration, isn't that just wonderful, you can backup your whole web site with a simple text file, this is just genius! You can switch templates and just upload this single text file to change template, awesome!\"\nmoredetails_section_button_title: \"Google That Shit\"\n\n# Showcase Section\n\nmulticolumn_section_title: \"So Fucking Creative\"\nmulticolumn_section_first_column_title: \"This Fucking Template\"\nmulticolumn_section_first_column_description: \"Guaranteed to use the same fucking template that every other bootstrap website uses, downloaded straight from The Web\"\nmulticolumn_section_second_column_title: \"This Set of Four Icons\"\nmulticolumn_section_second_column_description: \"Look at this cool set of four icons describing different things about us! We use four, because it's the default.\"\nmulticolumn_section_third_column_title: \"Lots of effort\"\nmulticolumn_section_third_column_description: \"We even changed some of the icons! We take the extra effort to make our designs truly original.\"\nmulticolumn_section_forth_column_title: \"Made with Love\"\nmulticolumn_section_forth_column_description: \"Because nothing says hard work and talent like editing a few lines of text.\"\n\n# Social\n\nemail: holly@shit.com\ndescription: \"Your whole website is actually one text file, isn't that just wonderful, you can backup your whole web site with a simple text file, this is just genius! You can switch templates and just upload this single text file to change template, awesome!\"\nbaseurl: \"\" # the subpath of your site, e.g. /blog\nurl: \"\" # the base hostname & protocol for your site, e.g. http://example.com\ntwitter_username: jekyllrb\ngithub_username:  jekyll\n\n# Build settings\nmarkdown: kramdown\ntheme: minima\nplugins:\n  - jekyll-feed\n\njustsaywebsite_theme: \"jekyll-theme-03-every-boostrap\"\ntomersource: https://github.com/petehouston/the-only-bootstrap-page\n";
 var AppState = /** @class */ (function () {
     function AppState() {
     }
@@ -532,6 +555,42 @@ var AppState = /** @class */ (function () {
         var webSiteUrl = _b.webSiteUrl;
         patchState({ webSiteUrl: webSiteUrl });
     };
+    AppState.prototype.setThemeConfig = function (_a, _b) {
+        var getState = _a.getState, patchState = _a.patchState;
+        var everyBootstrapThemeConfig = _b.everyBootstrapThemeConfig;
+        patchState({ everyBootstrapThemeConfig: everyBootstrapThemeConfig });
+    };
+    AppState.prototype.resetWebSitefields = function (_a, _b) {
+        var getState = _a.getState, patchState = _a.patchState;
+        patchState({ everyBootstrapThemeConfig: everyBootstrapThemeConfigDefault });
+    };
+    AppState.prototype.updateStateByFields = function (_a, _b) {
+        var getState = _a.getState, patchState = _a.patchState;
+        var title = _b.title, subtitle = _b.subtitle, description = _b.description, buttonTitle = _b.buttonTitle, midPageDescription = _b.midPageDescription;
+        var currentThemeConfig = getState().everyBootstrapThemeConfig;
+        var updatedThemeConfig = currentThemeConfig.replace(/^title: "(.*?)$/gm, "title: \"" + title + "\"")
+            .replace(/^top_left_title: "(.*?)$/gm, "top_left_title: \"" + subtitle + "\"")
+            .replace(/^moredetails_section_description: "(.*?)$/gm, "moredetails_section_description: \"" + description + "\"")
+            .replace(/^top_button_page_scroll_title: "(.*?)$/gm, "top_button_page_scroll_title: \"" + buttonTitle + "\"")
+            .replace(/^multicolumn_section_first_column_description: "(.*?)$/gm, "multicolumn_section_first_column_description: \"" + midPageDescription + "\"");
+        patchState({ everyBootstrapThemeConfig: updatedThemeConfig });
+    };
+    AppState.prototype.themeChosen = function (_a, _b) {
+        var getState = _a.getState, patchState = _a.patchState;
+        var theme = _b.theme;
+        var currentThemeConfig = getState().everyBootstrapThemeConfig;
+        var updatedThemeConfig = currentThemeConfig.replace(/^justsaywebsite_theme: "(.*?)$/gm, "justsaywebsite_theme: \"" + theme + "\"");
+        patchState({ everyBootstrapThemeConfig: updatedThemeConfig });
+    };
+    AppState.prototype.initState = function (_a, _b) {
+        var getState = _a.getState, patchState = _a.patchState;
+        if (getState().everyBootstrapThemeConfig == null) {
+            patchState({ everyBootstrapThemeConfig: everyBootstrapThemeConfigDefault });
+        }
+        if (getState().everyBootstrapThemeConfig.indexOf('justsaywebsite_theme') == -1) {
+            patchState({ everyBootstrapThemeConfig: everyBootstrapThemeConfigDefault + '\njustsaywebsite_theme: jekyll-theme-03-every-boostrap' });
+        }
+    };
     __decorate([
         Object(_ngxs_store__WEBPACK_IMPORTED_MODULE_0__["Action"])(_actions__WEBPACK_IMPORTED_MODULE_1__["UpdateEmailAction"]),
         __metadata("design:type", Function),
@@ -544,6 +603,36 @@ var AppState = /** @class */ (function () {
         __metadata("design:paramtypes", [Object, _actions__WEBPACK_IMPORTED_MODULE_1__["WebSiteGeneratedAction"]]),
         __metadata("design:returntype", void 0)
     ], AppState.prototype, "setWebSiteUrl", null);
+    __decorate([
+        Object(_ngxs_store__WEBPACK_IMPORTED_MODULE_0__["Action"])(_actions__WEBPACK_IMPORTED_MODULE_1__["GenerateWebSiteAction"]),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object, _actions__WEBPACK_IMPORTED_MODULE_1__["GenerateWebSiteAction"]]),
+        __metadata("design:returntype", void 0)
+    ], AppState.prototype, "setThemeConfig", null);
+    __decorate([
+        Object(_ngxs_store__WEBPACK_IMPORTED_MODULE_0__["Action"])(_actions__WEBPACK_IMPORTED_MODULE_1__["ResetWebSiteFieldsAction"]),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object, _actions__WEBPACK_IMPORTED_MODULE_1__["GenerateWebSiteAction"]]),
+        __metadata("design:returntype", void 0)
+    ], AppState.prototype, "resetWebSitefields", null);
+    __decorate([
+        Object(_ngxs_store__WEBPACK_IMPORTED_MODULE_0__["Action"])(_actions__WEBPACK_IMPORTED_MODULE_1__["WebSiteFieldsUpdatedAction"]),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object, _actions__WEBPACK_IMPORTED_MODULE_1__["WebSiteFieldsUpdatedAction"]]),
+        __metadata("design:returntype", void 0)
+    ], AppState.prototype, "updateStateByFields", null);
+    __decorate([
+        Object(_ngxs_store__WEBPACK_IMPORTED_MODULE_0__["Action"])(_actions__WEBPACK_IMPORTED_MODULE_1__["ThemeChosenAction"]),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object, _actions__WEBPACK_IMPORTED_MODULE_1__["ThemeChosenAction"]]),
+        __metadata("design:returntype", void 0)
+    ], AppState.prototype, "themeChosen", null);
+    __decorate([
+        Object(_ngxs_store__WEBPACK_IMPORTED_MODULE_0__["Action"])(_actions__WEBPACK_IMPORTED_MODULE_1__["InitWithDefaultsAction"]),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object, _actions__WEBPACK_IMPORTED_MODULE_1__["InitWithDefaultsAction"]]),
+        __metadata("design:returntype", void 0)
+    ], AppState.prototype, "initState", null);
     __decorate([
         Object(_ngxs_store__WEBPACK_IMPORTED_MODULE_0__["Selector"])(),
         __metadata("design:type", Function),
@@ -558,6 +647,7 @@ var AppState = /** @class */ (function () {
                 email: null,
                 photoURL: null,
                 webSiteUrl: null,
+                everyBootstrapThemeConfig: everyBootstrapThemeConfigDefault
             }
         })
     ], AppState);
@@ -572,13 +662,18 @@ var AppState = /** @class */ (function () {
 /*!**********************************!*\
   !*** ./src/app/store/actions.ts ***!
   \**********************************/
-/*! exports provided: UpdateEmailAction, WebSiteGeneratedAction */
+/*! exports provided: UpdateEmailAction, WebSiteGeneratedAction, GenerateWebSiteAction, WebSiteFieldsUpdatedAction, ThemeChosenAction, InitWithDefaultsAction, ResetWebSiteFieldsAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UpdateEmailAction", function() { return UpdateEmailAction; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebSiteGeneratedAction", function() { return WebSiteGeneratedAction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GenerateWebSiteAction", function() { return GenerateWebSiteAction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebSiteFieldsUpdatedAction", function() { return WebSiteFieldsUpdatedAction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemeChosenAction", function() { return ThemeChosenAction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InitWithDefaultsAction", function() { return InitWithDefaultsAction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResetWebSiteFieldsAction", function() { return ResetWebSiteFieldsAction; });
 var UpdateEmailAction = /** @class */ (function () {
     function UpdateEmailAction(email, username, photoURL) {
         this.email = email;
@@ -595,6 +690,94 @@ var WebSiteGeneratedAction = /** @class */ (function () {
     }
     WebSiteGeneratedAction.type = '[QUICKWEBSITE] WebSiteGeneratedAction';
     return WebSiteGeneratedAction;
+}());
+
+var GenerateWebSiteAction = /** @class */ (function () {
+    function GenerateWebSiteAction(everyBootstrapThemeConfig) {
+        this.everyBootstrapThemeConfig = everyBootstrapThemeConfig;
+    }
+    GenerateWebSiteAction.type = '[QUICKWEBSITE] GenerateWebSiteAction';
+    return GenerateWebSiteAction;
+}());
+
+var WebSiteFieldsUpdatedAction = /** @class */ (function () {
+    function WebSiteFieldsUpdatedAction(title, subtitle, description, buttonTitle, midPageDescription) {
+        this.title = title;
+        this.subtitle = subtitle;
+        this.description = description;
+        this.buttonTitle = buttonTitle;
+        this.midPageDescription = midPageDescription;
+    }
+    WebSiteFieldsUpdatedAction.type = '[QUICKWEBSITE] WebSiteFieldsUpdatedAction';
+    return WebSiteFieldsUpdatedAction;
+}());
+
+var ThemeChosenAction = /** @class */ (function () {
+    function ThemeChosenAction(theme) {
+        this.theme = theme;
+    }
+    ThemeChosenAction.type = '[QUICKWEBSITE] ThemeChosenAction';
+    return ThemeChosenAction;
+}());
+
+var InitWithDefaultsAction = /** @class */ (function () {
+    function InitWithDefaultsAction() {
+    }
+    InitWithDefaultsAction.type = '[QUICKWEBSITE] InitWithDefaultsAction';
+    return InitWithDefaultsAction;
+}());
+
+var ResetWebSiteFieldsAction = /** @class */ (function () {
+    function ResetWebSiteFieldsAction() {
+    }
+    ResetWebSiteFieldsAction.type = '[QUICKWEBSITE] ResetWebSiteFieldsAction';
+    return ResetWebSiteFieldsAction;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/store/errohandling.ts":
+/*!***************************************!*\
+  !*** ./src/app/store/errohandling.ts ***!
+  \***************************************/
+/*! exports provided: ErrorsHandler */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorsHandler", function() { return ErrorsHandler; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _ngxs_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ngxs/store */ "./node_modules/@ngxs/store/fesm5/ngxs-store.js");
+/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./actions */ "./src/app/store/actions.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ErrorsHandler = /** @class */ (function () {
+    function ErrorsHandler(injector) {
+        this.injector = injector;
+    }
+    ErrorsHandler.prototype.handleError = function (error) {
+        // Do whatever you like with the error (send it to the server?)
+        // And log it to the console
+        console.error('It happens: ', error);
+        this.injector.get(_ngxs_store__WEBPACK_IMPORTED_MODULE_1__["Store"]).dispatch([new _actions__WEBPACK_IMPORTED_MODULE_2__["ResetWebSiteFieldsAction"]()]);
+    };
+    ErrorsHandler = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
+        __metadata("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]])
+    ], ErrorsHandler);
+    return ErrorsHandler;
 }());
 
 
@@ -643,7 +826,7 @@ var CurrentConfig = /** @class */ (function (_super) {
         return _super.call(this) || this;
     }
     return CurrentConfig;
-}(ProdConfig));
+}(DevConfig));
 
 
 
